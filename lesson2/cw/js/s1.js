@@ -1,4 +1,4 @@
-var num = prompt("Введите число от 0 до 100");
+var num = +prompt("Введите число от 0 до 100");
 if(num < 5 ){
     console.log("Tiny");
 } else if(num < 10){
