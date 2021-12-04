@@ -16,3 +16,12 @@
 		}
 */
 
+var arr1 = ["ФК Днепр", "BMW", "Dnepr"]; 
+var arr2 = ["11", "200", "2kk"]; 
+
+var associative_array=new Object();
+for(var i=0; i<3; i++){
+  associative_array[arr1[i]]=arr2[i];
+}
+
+console.log(associative_array.Dnepr);
